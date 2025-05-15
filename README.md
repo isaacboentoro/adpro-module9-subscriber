@@ -8,3 +8,7 @@ This is a connection string for an amqp server. `guest` is the username for auth
 ### Slow subscriber simulation
 ![busy server](<images/busy server.png>)
 The total queue is 4 because I ran publisher 4 times in quick succession and subscriber needs time to process those messages.
+
+### 3 subscriber test
+![3 subscriber test](<images/busy server 2.png>)
+The queue has dropped faster because the number of messages in the queue has dropped. The message broker can now balance subscriber load.
