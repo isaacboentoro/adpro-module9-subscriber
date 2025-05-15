@@ -26,7 +26,7 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
         
         // thread::sleep(ten_millis);
      
-        println!("In Ghaza's Computer [2306173321]. Message received: {:?}", message);
+        println!("In Isaac's Computer [2306256362]. Message received: {:?}", message);
         Ok(())
     }
 }
